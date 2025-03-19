@@ -10,12 +10,5 @@ public class ExemploMatriz {
                 System.out.println(matriz[linha][coluna]);
             }
         }
-/*
-        for(int[] linha:matriz){
-            for(int coluna:linha){
-                System.out.println(coluna);
-            }
-        }
-*/
     }
 }

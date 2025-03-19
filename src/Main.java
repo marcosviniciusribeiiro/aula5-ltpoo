@@ -1,24 +1,23 @@
 public class Main {
     public static void main(String[] args){
-        //Criando um vetor de objetos Alunos
+     //Para executar a class Veiculo dentro do Main:
+        Veiculo[] garagem = new Veiculo[3];
+        garagem[0] = new Veiculo("Gol", 2011);
+        garagem[1] = new Veiculo("Civic", 2018);
+        garagem[2] = new Veiculo("Corsa", 2004);
+        for(Veiculo veiculo:garagem){
+            System.out.println(veiculo);
+        }
+    }
+}
+/*   Para executar a class Aluno dentro do Main:
         Aluno[] turma = new Aluno[3];
 
-        //Inicializando os objetos do vetor
         turma[0] = new Aluno("Maria", 20);
         turma[1] = new Aluno("João", 22);
         turma[2] = new Aluno("Pedro", 21);
 
-        //Imprimindo os Dados
         for(Aluno aluno:turma){
             System.out.println(aluno);
         }
-
-/*        double[] notas = {7.0, 8.5, 9.0, 6.0, 7.5};
-        double soma = 0;
-        for(double nota : notas){
-            soma+=nota;
-        }
-        System.out.printf("Média da Turma: %.1f", (soma / notas.length));
 */
-    }
-}
